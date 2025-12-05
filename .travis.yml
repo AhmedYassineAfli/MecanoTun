@@ -1,0 +1,7 @@
+language: java
+
+script:
+- ./gradlew build
+
+env:
+  - SPRING_DATASOURCE_URL=jdbc:postgresql://ec2-3-223-72-172.compute-1.amazonaws.com:5432/d4rv9p5291i88r?password=29a31f78989da232d87aecf567ef2b8c5aec446b5ef64e910ad30fa83f58e391&sslmode=require&user=hcxycweeyemgyr
